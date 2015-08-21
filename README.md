@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jdee-emacs/jdee-server.png?branch=master)](https://travis-ci.org/jdee-emacs/jdee-server)
+
 # jdee-server
 JDEE Java backend
 
