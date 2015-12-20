@@ -5,6 +5,6 @@ JDEE Java backend
 
 # Building:
 1. It requires *Maven 3*
-2. mvn assembly:assembly
+2. ```mvn -DskipTests=true assembly:assembly```
 
 Copy ```target/jdee-bundle-${version}.jar``` to a directory and customize ```jdee-server-dir``` to point to the dir.
