@@ -269,7 +269,7 @@ public class DelegateFactory extends MethodFactory {
    */
   public void outputMethods(PrintWriter out, boolean truncate) {
     final StringBuffer buf = new StringBuffer
-      ("(jde-wiz-gen-delegation-methods (list ");
+      ("(jdee-wiz-gen-delegation-methods (list ");
 
     signatures.visit(new SignatureVisitor() {
         public void visit(Signature sig , boolean firstOfClass) {

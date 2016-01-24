@@ -37,16 +37,16 @@ public class SymbolTest {
 
     @Test
     public void testJava2Elisp1() {
-        assertEquals("jde-foo-call-left-right", Symbol.java2Elisp("jdeFooCallLeftRight"));
+        assertEquals("jdee-foo-call-left-right", Symbol.java2Elisp("jdeeFooCallLeftRight"));
     }
 
     @Test
     public void testJava2Elisp2() {
-        assertEquals("jde-foo-call-left-right", Symbol.java2Elisp("jde.foo.Call.leftRight"));
+        assertEquals("jdee-foo-call-left-right", Symbol.java2Elisp("jdee.foo.Call.leftRight"));
     }
 
     @Test
     public void testJava2Elisp3() {
-        assertEquals("jde-foo-call-left-right", Symbol.java2Elisp("jde.foo.CALL_LEFT_RIGHT"));
+        assertEquals("jdee-foo-call-left-right", Symbol.java2Elisp("jdee.foo.CALL_LEFT_RIGHT"));
     }
 }

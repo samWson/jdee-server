@@ -133,9 +133,9 @@ public class LispWriterTest {
     }
 
     @Test
-    public void testWriteJdeJuciInvokeElispForm() {
+    public void testWriteJdeeJuciInvokeElispForm() {
         List eval = new ArrayList();
-        eval.add(new Symbol("jde-juci-invoke-elisp"));
+        eval.add(new Symbol("jdee-juci-invoke-elisp"));
 
         List form = new ArrayList();
         form.add(new Symbol("message"));
@@ -143,7 +143,7 @@ public class LispWriterTest {
 
         eval.add(form);
         lwriter.writeForm(eval);
-        assertEquals("(jde-juci-invoke-elisp '(message \"hello %s\" \"nick\"))", output.toString());
+        assertEquals("(jdee-juci-invoke-elisp '(message \"hello %s\" \"nick\"))", output.toString());
     }
 
 }
